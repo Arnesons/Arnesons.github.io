@@ -312,7 +312,9 @@
 	width: 800px;
 	height: 500px;
 }
-
+.wrapper_merch{
+	text-align: justify;
+}
 .babout {
 	background-color: black;
 }
@@ -370,6 +372,10 @@
 .c_left p {
 	margin-bottom: 10%;
 	margin: 0 2%;
+}
+.c_left img{
+	width: 100%;
+	margin-left: 2%;
 }
 
 .c_right {
