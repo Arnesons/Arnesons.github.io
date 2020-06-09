@@ -18,7 +18,7 @@ $(document).ready(function () {
         $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
             var slide_count = 0;
             var activeTab = $(e.target).text(); // Get the name of active tab
-            var slide_images = ["multimedia/images/nachos.jpg","multimedia/images/menu_background.jpg","multimedia/images/beer.jpg", "multimedia/images/pancakes.jpg"];
+            var slide_images = ["multimedia/images/nachos.jpg","multimedia/images/menu_background.jpg","multimedia/images/beer.jpg", "multimedia/images/pancakes.jpg", "multimedia/images/beer.jpg"];
             switch(activeTab) {
               case "Entrantes":
                 slide_count = 0;
@@ -33,7 +33,7 @@ $(document).ready(function () {
                 slide_count = 3;
                 break;
               default:
-                alert("No deberías poder ver esto jaja");
+                slide_count = 4;
             }
             $('.wrapper_pill').css('background-image', 'linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(\''+slide_images[slide_count]+'\')');
             var previousTab = $(e.relatedTarget).text(); // Get the name of previous tab
