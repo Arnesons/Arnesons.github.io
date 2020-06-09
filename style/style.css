@@ -382,8 +382,8 @@
 .c_left2 img{
 	width: 100%;
 	margin-left: 5%;
-	height: 25em;
-	width: 35em;
+	margin-right: 5%;
+	height: 100%;
 }
 .c_right2{
 	float: right;
@@ -510,9 +510,10 @@ h1 {
 	font-family: spartan;
 }
 
-
+.escondido{
+	display: none;
+}
 @media only screen and (max-width: 600px) {
-
 	.jumbotron h1 {
 		font-size: 350%;
 	}
@@ -561,6 +562,21 @@ h1 {
 		padding: 2% 0;
 		background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../multimedia/images/side_meat.jpg);
 	}
+
+	.c_left2 {
+		width: 30%;
+		padding: 2% 0;
+		background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
+	}
+	.c_right2{
+		width: 65%;
+	}
+	.c_right2 h1{
+		font-size: 2em;
+	}
+	.c_right2 p{
+		font-size: 1em;
+	}
 	.c_left_events{
 		background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../multimedia/images/beer.jpg);
 		width: 100%;
@@ -574,5 +590,6 @@ h1 {
 	}
 	#items2a {
 		margin-left: 5.5%;
+	}
 	}
 }
