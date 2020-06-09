@@ -345,6 +345,12 @@
 	text-align: justify;
 	text-justify: auto;
 }
+.c_left2 {
+	float: left;
+	width: 45%;
+	text-align: justify;
+	text-justify: auto;
+}
 .c_left_events {
 	float: left;
 	width: 65%;
@@ -373,13 +379,18 @@
 	margin-bottom: 10%;
 	margin: 0 2%;
 }
-.c_left img{
+.c_left2 img{
 	width: 100%;
 	margin-left: 5%;
 	height: 25em;
 	width: 35em;
 }
-
+.c_right2{
+	float: right;
+	width: 49%;
+	height: 100%;
+	margin: 0 2%;
+}
 .c_right {
 	float: right;
 	width: 49%;
