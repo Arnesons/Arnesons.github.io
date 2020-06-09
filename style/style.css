@@ -375,7 +375,9 @@
 }
 .c_left img{
 	width: 100%;
-	margin-left: 2%;
+	margin-left: 5%;
+	height: 25em;
+	width: 35em;
 }
 
 .c_right {
