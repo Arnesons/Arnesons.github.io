@@ -362,10 +362,18 @@
 
 .c_right {
 	float: right;
+	width: 49%;
+	height: 100%;
+	margin: 0 2%;
+}
+
+.c_right_events {
+	float: right;
 	width: 29%;
 	height: 100%;
 	margin: 0 2%;
 }
+
 .c_right img{
 	height: 20%;
 }
