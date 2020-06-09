@@ -258,12 +258,12 @@
 #items2 {
 	display: inline-block;
 	color: white;
-	margin-left: 6.8%;
+	margin-left: 8.8%;
 }
 
 #items2a {
 	display: inline-block;
-	margin-left: 6.8%;
+	margin-left: 8.8%;
 	color: black;
 }
 
@@ -312,6 +312,21 @@
 	width: 800px;
 	height: 500px;
 }
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+.pesta h2{
+	margin-top: 2em;
+	font-size: 1.5em;
+	text-align: center;
+}
+.pesta p{
+	text-align: center;
+}
+
 .wrapper_merch{
 	text-align: justify;
 }
