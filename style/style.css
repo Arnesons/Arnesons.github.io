@@ -343,6 +343,12 @@
 	text-align: justify;
 	text-justify: auto;
 }
+.c_left_events {
+	float: left;
+	width: 65%;
+	text-align: justify;
+	text-justify: auto;
+}
 
 .c_left h1 {
 	margin-bottom: 5%;
@@ -356,8 +362,7 @@
 
 .c_right {
 	float: right;
-	background-color: gray;
-	width: 49%;
+	width: 29%;
 	height: 100%;
 	margin: 0 2%;
 }
@@ -401,6 +406,9 @@
 
 .pestañas a {
 	width: 10em;
+}
+.eventoside{
+	margin-bottom: 5%;
 }
 
 #side_meat {
